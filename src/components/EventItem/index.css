@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.each-list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+  margin-left: 32px;
+  width: 90%;
+}
+.img {
+  height: 100px;
+  max-width: 360px;
+  border: 2px solid transparent;
+}
+.active {
+  border-radius: 10px;
+  border: 2px solid #2dd4bf;
+}
+.head {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+}
+.para {
+  font-size: 24px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.btn{
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 0;
+}

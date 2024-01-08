@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.events-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: #64748b;
+  height: 100vh;
+  width: 60%;
+}
+.heading {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-left: 32px;
+}
+.events-list {
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0;
+}
+.active-conatiner {
+  width: 40%;
+  background-color: #ffffff;
+}

@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 40%;
+  height: 100vh;
+}
+.view-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+}
+.btn{
+  background-color: #0967d2;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 500;
+}
+.view {
+  height: 300px;
+  max-width: 461px;
+}
+.tick {
+  width: 60px;
+  height: 100px;
+}
+.para {
+  color: #475569;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+.head {
+  color: #475569;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
